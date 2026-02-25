@@ -22,3 +22,13 @@ A repository for SQL studies and solutions, ranging from management reports for 
 * **Cross-Tabulation:** Used `SUM(CASE WHEN...)` logic to distribute stock quantities into distinct branch columns.
 * **Correlated Subqueries:** Implemented dynamic labeling for columns based on branch parameters.
 * **Financial Calculation:** Nested logic to compute the total inventory value (`Quantity * Price`) across all selected locations.
+
+* #### 💰 Profit Margin Analysis by Manufacturer
+**The Problem:** The management needed to identify which manufacturers provided the best returns, comparing the actual sales price against three different cost benchmarks: Purchase Cost, Average Moving Cost, and a Target Price Table.
+
+**The Solution:** Developed an advanced financial query using **Nested Subqueries** and **Outer Apply** to perform real-time currency conversion and cost comparisons. The report handles sales returns automatically by inverting signs based on operation types.
+
+**Technical Highlights:**
+* **Multiple Margin Perspectives:** Calculated profitability using three distinct cost bases for deeper financial insight.
+* **Currency Normalization:** Used `OUTER APPLY` to fetch the most recent exchange rates for non-local currency products.
+* **Complex Aggregation:** Implemented sign-switching logic within `SUM` functions to ensure returns are correctly deducted from totals.
