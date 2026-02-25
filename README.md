@@ -32,3 +32,8 @@ A repository for SQL studies and solutions, ranging from management reports for 
 * **Multiple Margin Perspectives:** Calculated profitability using three distinct cost bases for deeper financial insight.
 * **Currency Normalization:** Used `OUTER APPLY` to fetch the most recent exchange rates for non-local currency products.
 * **Complex Aggregation:** Implemented sign-switching logic within `SUM` functions to ensure returns are correctly deducted from totals.
+
+* ---
+### 🔗 Web3 & Blockchain Analytics
+I am currently exploring the Solana ecosystem. You can track my live on-chain dashboards here:
+* [My Dune Analytics Profile]((https://dune.com/cristianfraga))
